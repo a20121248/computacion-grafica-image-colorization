@@ -37,19 +37,18 @@ image-colorization/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ## 🚀 How to Start
 
 1. Clone the repo:
 ```bash
 git clone https://github.com/yourusername/image-colorization.git
-
+```
 2. Open a notebook in Google Colab:
 ```bash
 - notebooks/01_cnn_colorization.ipynb
 - notebooks/02_autoencoder_colorization.ipynb
 - notebooks/03_gan_colorization.ipynb
-
+```
 3. Upload sample grayscale images to data/raw/.
-
 4. Run the cells to train or test.
