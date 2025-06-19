@@ -9,17 +9,13 @@ This project explores different architectures (CNNs, Autoencoders, and GANs) for
 - Experiment logs and results saved for comparison
 
 ## 📁 Structure
+```text
 image-colorization/
 │
 ├── data/
 │   ├── raw/                # Original grayscale and color images
 │   ├── processed/          # Resized or preprocessed data
 │   └── samples/            # Example inputs and outputs for visual inspection
-│
-├── notebooks/
-│   ├── 01_cnn_colorization.ipynb
-│   ├── 02_autoencoder_colorization.ipynb
-│   └── 03_gan_colorization.ipynb
 │
 ├── experiments/
 │   ├── logs/               # Save model training logs here (loss, metrics)
@@ -47,9 +43,13 @@ image-colorization/
 1. Clone the repo:
 ```bash
 git clone https://github.com/yourusername/image-colorization.git
+
 2. Open a notebook in Google Colab:
+```bash
 - notebooks/01_cnn_colorization.ipynb
 - notebooks/02_autoencoder_colorization.ipynb
 - notebooks/03_gan_colorization.ipynb
+
 3. Upload sample grayscale images to data/raw/.
+
 4. Run the cells to train or test.
